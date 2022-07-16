@@ -1,0 +1,36 @@
+Moderator:
+- Create an empty repository - group-exercise
+- Create a Github repository - group-exercise
+- How do you connect your local repository with git repository?
+- Everyone clone the repo
+- Person1: Create a branch feature-1, add the following files:
+    - README.md, .gitignore (add python gitignore file from [github](https://github.com/github/gitignore) repo)
+    - file1.txt (add hello world)
+    - Commit and push to Github
+    - Create a PR (pr#1)
+- Person2: Review the PR#1 and merge the changes to main branch
+- Person3:
+    - Clone the repository
+    - Create a new branch feature-2_<your_name>
+    - Modify content of file1.txt
+        - Delete the existing content
+        - Add: Hello World - <your name>
+    - Commit and push to Github
+    - Create a PR (pr#2)
+- Person4:
+    - Clone the repository
+    - Create a new branch feature-3_<your_name>
+    - Modify content of file1.txt
+        - Delete the existing content
+        - Add: Hello World - <your name>
+    - Commit and push to Github
+    - Create a PR (pr#3)
+- Person2:
+    - Review the PR#2 and merge to main
+    - Ask Person4 to rebase their branch on top of master, add a comment in the PR
+- Person4:
+    - Since Person3 and Person4 changed same lines of the file. During rebase it will result in conflict. We want both the changes from Person3 and Person4
+    - Resolve the conflicts and finish the rebase.
+    - Push to Github
+- Person2:
+    - Review the PR#3 and if you are happy merge the changes to main
